@@ -13,7 +13,7 @@ namespace WinForm_DB_project01_
     public partial class LoginForm : Form
     {
         public bool login_Check = false;
-        public MySqlConnection conn = new MySqlConnection("server=localhost;port=3306;database=projectdb1;username=root;password=zotb1026!!");
+        public MySqlConnection conn = new MySqlConnection("server=localhost;port=3306;database=projectdb1;username=root;password=[Your PW]");
         public LoginForm()
         {
             InitializeComponent();
